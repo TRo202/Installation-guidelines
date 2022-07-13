@@ -1,5 +1,5 @@
 # Installation tips
-To leave some tips for some annoying errors when installing or running some programs.......
+To share some tips for some annoying errors when installing or running some programs.......
 
 NOTE: guidelines here are based on M1.
 
