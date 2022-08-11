@@ -3,6 +3,31 @@ To share some tips for some annoying errors when installing or running some prog
 
 NOTE: guidelines here are based on M1.
 
+So far, Multipass seems to be the best (and perhaps only) option for running Ubuntu 18.04 on M1
+
+## Multipass
+* GUI Dekstop Environment 
+    
+  Use Microsoft Remote Desktop app   
+  `sudo apt update`   
+  `sudo apt upgrade`  
+  `sudo apt install ubuntu-desktop xrdp`
+      
+  After installation, you need to set a password.   
+      
+  Then when you run the app,   
+  <img width="603" alt="스크린샷 2022-08-12 오전 1 11 23" src="https://user-images.githubusercontent.com/102891484/184180357-1baaab9c-12d4-4b4a-b7c8-8eddafe6b057.png">   
+  click '+' and 'Add PC'
+      
+  Copy the IP address (on multipass terminal) or IPv4 (if you run `multipass info <'name of the linux'>`)
+      
+  ![이미지 2022  8  12  오전 1 38 중간](https://user-images.githubusercontent.com/102891484/184189325-e26f7c48-e7af-473f-92a7-c9fa3ca16e5e.jpeg)   
+      
+  and paste it in the PC name of the 'Add PC' screen.
+  
+  <img width="473" alt="스크린샷 2022-08-12 오전 1 50 22" src="https://user-images.githubusercontent.com/102891484/184189811-1227c8a7-c03a-4f2e-92f9-b668503f3ac4.png">
+      
+  A new PC is now added.
 
 ## UTM 
 
